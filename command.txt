@@ -1989,8 +1989,166 @@ Type "it" for more
         "budget" : "$14382.67"
 }
 Type "it" for more
-> db.data.find({"production_year": {$lt: "1/1/2020"}}, {"production_year": "1/1/2000", "_id": 1}).sort({"production_year": -1}).pretty()
+
+> db.data.find().sort({production_year: -1}).pretty()   
 {
-        "_id" : ObjectId("625fcf51dcb0f873c3cfaf4a"),
-        "production_year" : "1/1/2000"
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb0b3"),
+        "id" : 439,
+        "movie_name" : "Phantom (O Fantasma)",       
+        "movie_genre" : "Drama",
+        "production_year" : "9/9/1999",
+        "budget" : "$13941.00"
 }
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb04a"),
+        "id" : 334,
+        "movie_name" : "Revolutionary Road",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : "9/7/2011",
+        "budget" : "$11337.11"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfafb0"),
+        "id" : 180,
+        "movie_name" : "Boiler Room",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : "9/7/2006",
+        "budget" : "$12435.39"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf5d"),
+        "id" : 97,
+        "movie_name" : "Garage Olimpo",
+        "movie_genre" : "Drama",
+        "production_year" : "9/6/2013",
+        "budget" : "$19233.08"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb0ba"),
+        "id" : 446,
+        "movie_name" : "Oily Maniac, The (You gui zi)",
+        "movie_genre" : "Horror",
+        "production_year" : "9/4/2019",
+        "budget" : "$10175.08"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf5c"),
+        "id" : 96,
+        "movie_name" : "The Vixen",
+        "movie_genre" : "Comedy",
+        "production_year" : "9/4/2004",
+        "budget" : "$12566.21"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfafd8"),
+        "id" : 220,
+        "movie_name" : "Congo",
+        "movie_genre" : "Action|Adventure|Mystery|Sci-Fi",
+        "production_year" : "9/30/1995",
+        "budget" : "$15496.16"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfafdc"),
+        "id" : 224,
+        "movie_name" : "Case Against 8, The",
+        "movie_genre" : "Documentary",
+        "production_year" : "9/30/1995",
+        "budget" : "$17524.49"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf33"),
+        "id" : 55,
+        "movie_name" : "Junior Bonner",
+        "movie_genre" : "Comedy|Drama|Western",
+        "production_year" : "9/3/1995",
+        "budget" : "$15782.88"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb061"),
+        "id" : 357,
+        "movie_name" : "Closer to the Moon",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : "9/29/2019",
+        "budget" : "$12174.50"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb005"),
+        "id" : 265,
+        "movie_name" : "Jimmy Carter Man from Plains",
+        "movie_genre" : "Documentary",
+        "production_year" : "9/27/1996",
+        "budget" : "$14787.86"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb0d0"),
+        "id" : 468,
+        "movie_name" : "Mad City",
+        "movie_genre" : "Action|Drama",
+        "production_year" : "9/25/2018",
+        "budget" : "$10122.68"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb00c"),
+        "id" : 272,
+        "movie_name" : "Trancers",
+        "movie_genre" : "Action|Sci-Fi",
+        "production_year" : "9/24/1997",
+        "budget" : "$13100.30"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb085"),
+        "id" : 393,
+        "movie_name" : "Stille nacht",
+        "movie_genre" : "Crime|Mystery|Thriller",
+        "production_year" : "9/23/2018",
+        "budget" : "$11535.18"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb067"),
+        "id" : 363,
+        "movie_name" : "Ambition",
+        "movie_genre" : "Sci-Fi",
+        "production_year" : "9/23/2002",
+        "budget" : "$16226.01"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb0a6"),
+        "id" : 426,
+        "movie_name" : "Asterix in America (a.k.a Asterix Conquers America) (Astérix et les Indiens)",
+        "movie_genre" : "Adventure|Animation|Children|Comedy",
+        "production_year" : "9/21/2011",
+        "budget" : "$14688.23"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfaf8c"),
+        "id" : 144,
+        "movie_name" : "Bonnie Scotland (Heroes of the Regiment)",
+        "movie_genre" : "Comedy",
+        "production_year" : "9/21/2009",
+        "budget" : "$11178.78"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfb0b8"),
+        "id" : 444,
+        "movie_name" : "Once Upon a Time... When We Were Colored",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : "9/21/1993",
+        "budget" : "$17407.55"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaeff"),
+        "id" : 3,
+        "movie_name" : "Ricky & Barabba",
+        "movie_genre" : "Comedy",
+        "production_year" : "9/20/1996",
+        "budget" : "$10008.07"
+}
+{
+        "_id" : ObjectId("625fd18cdcb0f873c3cfaf8e"),
+        "id" : 146,
+        "movie_name" : "Tenth Man, The",
+        "movie_genre" : "Drama|War",
+        "production_year" : "9/20/1991",
+        "budget" : "$10862.43"
+}
+Type "it" for more
