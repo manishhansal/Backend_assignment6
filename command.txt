@@ -2152,3 +2152,45 @@ Type "it" for more
         "budget" : "$10862.43"
 }
 Type "it" for more
+
+> db.data.find().skip(10).limit(5).pretty()          
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf07"),
+        "id" : 11,
+        "movie_name" : "Pokemon: The Movie 2000",
+        "movie_genre" : "Adventure|Animation|Children|Fantasy",
+        "production_year" : "7/26/2014",
+        "budget" : "$12227.84"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf08"),
+        "id" : 12,
+        "movie_name" : "Erkan & Stefan 3",
+        "movie_genre" : "Comedy",
+        "production_year" : "3/31/2017",
+        "budget" : "$11135.44"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf09"),
+        "id" : 13,
+        "movie_name" : "Boss of It All, The (Direktøren for det hele)",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : "8/19/1991",
+        "budget" : "$15749.75"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf0a"),
+        "id" : 14,
+        "movie_name" : "Skyjacked",
+        "movie_genre" : "Action|Thriller",
+        "production_year" : "11/7/2000",
+        "budget" : "$17883.04"
+}
+{
+        "_id" : ObjectId("625fcf51dcb0f873c3cfaf0b"),
+        "id" : 15,
+        "movie_name" : "Evangelion: 3.0 You Can (Not) Redo",
+        "movie_genre" : "Action|Animation|Drama",
+        "production_year" : "3/10/1991",
+        "budget" : "$13576.91"
+}
